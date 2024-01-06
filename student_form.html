@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body 
+		{ background-image: url(/home/supriya/Desktop/project_mania/form6.jpg);
+		border: 10px dashed black;
+		 padding: 25px;
+		 background-repeat: no-repeat;
+		 background-origin: content-box;
+		  background-size: cover;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left:25%;
+		margin-right:25%;
+		margin-top:4%;
+		border: 1px solid #000000;
+		margin-bottom: 5px;
+		padding: 0px 15px 0 15px;
+		}
+	input[type=text], input[type=password] 
+		{
+		width: 97%;
+		padding: 10px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #F5F5F5;
+		}
+	hr 
+		{
+		border: 1px solid #e6e6e6;
+		margin-bottom: 5px;
+		}
+	.registerbutton
+		{
+		background-color: #29a329;
+		color: white;
+		padding: 15px 20px;
+		margin: 10px 0px;
+		border: none;
+		cursor: pointer;
+		width: 50%;
+		text:bold;
+		}
+	
+</style>
+</head>
+<body>
+
+	<form id="form" action="action.php">
+		<center><h1>Uploading Form</h1></center>
+		
+		<hr>
+		
+		<label for="name"><b>Name</b></label>
+		<input type="text" placeholder="Enter Your Name" name="name" required><br>
+		
+		<label for="number"><b>Contact No.</b></label>
+		<input type="text" placeholder="Enter Your Contact No." name="number" required><br>
+		
+		<label for="email"><b>Email</b></label> 
+		<input type="text" placeholder="Enter Your E-mail" name="email" required><br>
+                <label for="github"><b>Github_link</b></label> 
+		<input type="text" placeholder="Paste your link here" name="github" required><br>
+		
+	
+<form action="fileupload.php" method="post" enctype="multipart/form-data"> 
+
+  <label for="file" class="custom-uploader"><b>Upload Your File :</b></label> 
+
+  <input id="file" type="file" name="fileToUpload" accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps"> 
+
+
+</button> 
+		<hr>
+		</br><center>
+		
+		<button type="submit" class="registerbutton">Submit</button></hr></center></br>
+</form>
+
+
+</body>
+</html>
